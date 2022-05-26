@@ -9,10 +9,10 @@ class Book {
 		this.author = author;
 	}
 
-	@Override
-	public String toString() {
-		return title + "," + author;
-	}
+//	@Override
+//	public String toString() {
+//		return title + "," + author;
+//	}
 	
 	
 }
@@ -23,7 +23,7 @@ public class BookTest {
 
 		Book book = new Book("Ã¥", "ÀúÀÚ");
 		
-		System.out.println(book);
+		System.out.println(book.toString());
 		
 		String str = new String("test");
 		System.out.println(str);
